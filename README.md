@@ -14,4 +14,4 @@ supervisor app.js
 ```
 
 > Node.js ejs pkg
-> Bootstrap CSS 
+> Bootstrap CSS HTML 
