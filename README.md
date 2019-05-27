@@ -1,17 +1,33 @@
 # Opensource project
 
-<-- badge -->
 ![GitHub contributors](https://img.shields.io/github/contributors/ParkChangSun/opensource_6_gotohome.svg)
 
-## Run
+## Run for dev
 
+Execute
 ```bash
-node app.js
+node server.js
+```
+If you want to check changes instantly - execute
+```bash
+supervisor server.js
+```
+will render chat client at <http://localhost:3000/>
+
+## Build with Docker Image file
+
+Execute
+```bash
+bundle install
+bundle exec node server.js
+bundle exec ./client
 ```
 
-```bash
-supervisor app.js
-```
+### ToDo
+- [ ] connect/disconnect message
 
-> Node.js ejs pkg
-> Bootstrap CSS HTML 
+### Keywords
+
+Node.js (ejs express Socket.io) jQuery  
+Bootstrap CSS HTML  
+Docker CircleCI
